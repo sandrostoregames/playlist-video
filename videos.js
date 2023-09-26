@@ -1,30 +1,30 @@
 export default [
   {
-    src: "./img/01.mp4",
-    title: "Editando fotos",
+    src: "http://pages.sandrostoreps3.workers.dev/2:/Instalando_sandrostorebox.mp4",
+    title: "Instalando Sandro Store Box4",
   },
   {
-    src: "./img/02.mp4",
-    title: "Live Stream",
+    src: "http://pages.sandrostoreps3.workers.dev/2:/Download_automatico_de_jogos_iso.mp4",
+    title: "Download Automatico de Jogos iso",
   },
   {
-    src: "./img/03.mp4",
-    title: "Digitando",
+    src: "http://pages.sandrostoreps3.workers.dev/2:/Download_automatico_de_jogos_pkg.mp4",
+    title: "Download Automatico de jogos pkg",
   },
   {
-    src: "./img/04.mp4",
-    title: "Home office",
+    src: "http://pages.sandrostoreps3.workers.dev/2:/HEN_com_loop_infinito.mp4",
+    title: "HEN com loop infinito - Como Resolver",
   },
   {
-    src: "./img/05.mp4",
-    title: "Likes",
+    src: "http://pages.sandrostoreps3.workers.dev/2:/Instalando_licencas_e_ativando_sistema.mp4",
+    title: "Instalando Licencas e Ativando Sistema",
   },
   {
-    src: "./img/06.mp4",
-    title: "Gota de água",
+    src: "http://pages.sandrostoreps3.workers.dev/2:/Download_maunal_lento.mp4",
+    title: "Download Maunal Lento",
   },
   {
-    src: "./img/07.mp4",
-    title: "Código",
+    src: "http://pages.sandrostoreps3.workers.dev/2:/Guia_PS3_Golden_Hen.mp4",
+    title: "Guia PS3 Golden Edition",
   },
 ];
