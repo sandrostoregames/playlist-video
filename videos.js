@@ -1,7 +1,7 @@
 export default [
   {
     src: "http://pages.sandrostoreps3.workers.dev/2:/Instalando_sandrostorebox.mp4",
-    title: "Instalando Sandro Store Box4",
+    title: "Instalando Sandro Store Box",
   },
   {
     src: "http://pages.sandrostoreps3.workers.dev/2:/Download_automatico_de_jogos_iso.mp4", 
