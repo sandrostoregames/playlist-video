@@ -4,7 +4,7 @@ export default [
     title: "Instalando Sandro Store Box4",
   },
   {
-    src: "http://pages.sandrostoreps3.workers.dev/2:/Download_automatico_de_jogos_iso.mp4",
+    src: "http://pages.sandrostoreps3.workers.dev/2:/Download_automatico_de_jogos_iso.mp4", 
     title: "Download Automatico de Jogos iso",
   },
   {
