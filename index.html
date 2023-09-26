@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player de Vídeo com Streaming</title>
+</head>
+<body>
+    <h1>Player de Vídeo com Streaming</h1>
+
+    <video controls poster="link_para_a_imagem.jpg" id="videoPlayer">
+        <!-- Adicione o link direto para o vídeo na tag source -->
+        <source src="link_direto_para_o_video.mp4" type="video/mp4">
+        <!-- Adicione mais formatos de vídeo se desejar, como WebM ou Ogg -->
+        <!-- <source src="video.webm" type="video/webm">
+             <source src="video.ogv" type="video/ogg"> -->
+        Seu navegador não suporta o elemento de vídeo.
+    </video>
+
+    <script>
+        // Para reproduzir automaticamente o vídeo ao carregar a página, você pode usar:
+        // document.getElementById('videoPlayer').play();
+    </script>
+</body>
+</html>
