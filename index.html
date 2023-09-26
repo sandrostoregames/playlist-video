@@ -1,34 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Video playlist</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Lista de Reprodução de Vídeo</title>
     <style>
         body {
-            font-family: Arial, sans-serif; 
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-image: url('https://raw.githubusercontent.com/ps3privatepages/projectstore/main/backgrounds/refreshpages/page_download_game.jpg');
-            background-size: cover;
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-            background-position: center center;
-            height: 100vh;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #fff;
+            box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            text-align: center;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .video-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px; /* Espaço entre os vídeos */
+        }
+
+        .video-card {
+            flex: 1;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+            max-width: calc(33.33% - 20px); /* Para exibir 3 vídeos por linha em telas maiores */
+        }
+
+        .video-card video {
+            width: 100%;
+        }
+
+        .video-title {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        /* Estilos para dispositivos móveis */
+        @media (max-width: 768px) {
+            .video-card {
+                max-width: 100%; /* Exibir 1 vídeo por linha em telas menores */
+            }
         }
     </style>
-  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="main-video-content">
-      <video src="" controls muted autoplay></video>
-      <label class="main-info"></label>
-    </div>
-    <div class="playlist"></div>
-  </div>
+    <header>
+        <h1>Minha Galeria de Lista de Reprodução de Vídeo</h1>
+    </header>
 
-  <script src="script.js" type="module"></script>
+    <main>
+        <div class="video-row">
+            <div class="video-card">
+                <video controls>
+                    <source src="VIDEO_URL_1.mp4" type="video/mp4">
+                    Seu navegador não suporta o elemento de vídeo.
+                </video>
+                <h2 class="video-title">Título do Vídeo 1</h2>
+            </div>
+            
+            <div class="video-card">
+                <video controls>
+                    <source src="VIDEO_URL_2.mp4" type="video/mp4">
+                    Seu navegador não suporta o elemento de vídeo.
+                </video>
+                <h2 class="video-title">Título do Vídeo 2</h2>
+            </div>
+
+            <div class="video-card">
+                <video controls>
+                    <source src="VIDEO_URL_3.mp4" type="video/mp4">
+                    Seu navegador não suporta o elemento de vídeo.
+                </video>
+                <h2 class="video-title">Título do Vídeo 3</h2>
+            </div>
+
+            <!-- Adicione mais vídeos conforme necessário -->
+        </div>
+    </main>
 </body>
 </html>
